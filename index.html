@@ -1,0 +1,106 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News App</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="top-head-elements">
+        <a href="" class="logo website-logo"><span>news</span></a>
+        <span class="logo saved-pages">saved pages</span>
+        <div class="selected-country-wrapper">
+          <i class="fa-solid fa-location-dot"></i>
+          <h2 class="selected-country">India</h2>
+        </div>
+
+        <span class="logo following-page">Following</span>
+        <input type="text" name="" id="" class="search-box" />
+
+        <div class="NavigationStyles__HamburgerButton-sc-zlirk0-6 lbwthk"></div>
+      </div>
+
+      <nav class="nav-list">
+        <ul>
+          <li class="nav-el active"><a href="">trending</a></li>
+          <li class="nav-el"><a href="">sports</a></li>
+          <li class="nav-el"><a href="">fitness</a></li>
+          <li class="nav-el"><a href="">health</a></li>
+          <li class="nav-el"><a href="">technology</a></li>
+          <li class="nav-el"><a href="">cinema</a></li>
+          <li class="nav-el"><a href="">fitness</a></li>
+          <ul class="following-liked">
+            <li>
+              <a href="">
+                <i class="fa-regular fa-user show-following-posts">
+                  <span class="following-liked-counter follower-count">0</span>
+                </i>
+              </a>
+            </li>
+            <li>
+              <a href=""
+                ><i class="fa-regular fa-heart show-liked-posts">
+                  <span class="following-liked-counter liked-count">0</span>
+                </i></a
+              >
+            </li>
+          </ul>
+        </ul>
+        <div class="location-wrapper">
+          <i class="fa-solid fa-location-dot"></i>
+          <div class="location-results" id="location-results"></div>
+          <span class="location active-location">India</span>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="results">
+        <div class="spinner-box">
+          <div class="configure-border-1">
+            <div class="configure-core"></div>
+          </div>
+          <div class="configure-border-2">
+            <div class="configure-core"></div>
+          </div>
+        </div>
+      </div>
+      <ul class="following-list"></ul>
+      <div id="toast">This is a toast notification</div>
+      <div class="prev-next-btn">
+        <button class="prev nav-btn">
+          <i class="fa-solid fa-angle-left"></i>
+        </button>
+        <button class="next nav-btn">
+          <i class="fa-solid fa-angle-right"></i>
+        </button>
+      </div>
+    </main>
+    <div class="sticky-bottom">
+      <i class="fa-solid fa-house sticky-bottom-el active-sticky-bottom"></i>
+      <i class="fa-solid fa-magnifying-glass search-btn sticky-bottom-el"></i>
+      <i class="fa-regular fa-bookmark show-bookmarks-btn sticky-bottom-el"></i>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.js"
+      integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
